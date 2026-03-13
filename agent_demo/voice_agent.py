@@ -4,10 +4,10 @@ import asyncio
 import os
 
 from agentscope.agent import ReActAgent
-from agentscope.formatters import DashScopeChatFormatter
+from agentscope.formatter import DashScopeChatFormatter
 from agentscope.memory import InMemoryMemory
 from agentscope.message import Msg
-from agentscope.models import DashScopeChatModel
+from agentscope.model import DashScopeChatModel
 from agentscope.tool import Toolkit
 
 from tools.gpt_sovits_tts import gpt_sovits_text_to_audio
